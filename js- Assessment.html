@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="js- Assessment-style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Responsive Registration Form</h1>
+    <form id="registrationForm">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">Re-type Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+      </div>
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+      </div>
+      <div class="form-group">
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female" required> Female
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile Number:</label>
+        <input type="text" id="mobile" name="mobile" required>
+      </div>
+      <div class="form-group">
+        <label for="country">Select a country:</label>
+        <select id="country" name="country" required>
+          <option value="">-- Select a country --</option>
+          <option value="US">United States</option>
+          <option value="IN">India</option>
+          <option value="UK">United Kingdom</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree with terms and conditions</label>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+  <script src="js- Assessment.js"></script>
+</body>
+</html>
